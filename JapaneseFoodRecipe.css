@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #878787;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 75px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+h2 {
+    font-size: 45px;
+    color: skyblue;
+}
+h3 {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+}
+.nav-bar-list {
+    float: left;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar-link {
+    color: #878787;
+    font-size: 24px;
+    padding: 20px;
+    text-decoration: none;
+    color: grey;
+}
+.main-header {
+    padding-top: 200px;
+    height: 550px;
+    background: url('Image/JapaneseFoodBackground.jpg') no-repeat center;
+    background-size: cover;
+}
+.title {
+    color: white;
+    font-size: 1.5em;
+}
+.intro {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+}
+.box {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.Food {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.nav-header {
+    background: white;
+    height: 100px;
+    display: flex;
+}
+.home {
+    color: #878787;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+    color: #FF4500;
+    text-align: left;
+    text-decoration: none;
+}
+.logo-img {
+    width: 25%;
+    height: 25%;
+    margin-left: 25px;
+    padding: 10px;
+}

@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #878787;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+h2 {
+    font-size: 45px;
+    color: skyblue;
+}
+h3 {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #FF4500;
+}
+img {
+    max-width: 100%;
+}
+li {
+    text-align: left;
+}
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+@keyframes  animation{
+            0%   {color:black;}
+            25%  {color:grey;}
+            50%  {color:grey;}
+            75%  {color:black;}
+            00% {color:black;}
+        }
+.nav-header {
+    background: white;
+    height: 100px;
+    display: flex;
+}
+.home {
+    color: #878787;
+    font-size: 24px;
+    color: #FF4500;
+    text-align: left;
+    text-decoration: none;
+}
+.logo-img {
+    width: 100px;
+    margin-left: 25px;
+    padding: 10px;
+}
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+}
+.nav-bar-list {
+    float: left;
+    padding-top: 10px;
+}
+.nav-bar-link {
+    color: #878787;
+    font-size: 24px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: animation;
+    animation-iteration-count: infinite;
+}
+.main-header {
+    padding-top: 150px;
+    height: 920px;
+    background: url('Image/Home2.jpg') no-repeat center;
+    background-size: cover;
+}
+.title {
+    color: white;
+    font-size: 1.5em;
+}
+.intro {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+}
+.other {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.contact {
+    color:grey;
+    font-family: sans-serif;
+    text-align: left;
+}
+.a {
+    text-decoration: none;
+}
+.border {
+    padding: 5px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-color: orange;
+}
+.word {
+    color: black;
+}

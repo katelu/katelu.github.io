@@ -1,0 +1,80 @@
+* {
+	background-color: 
+}
+h2 {
+    color: black;
+    border-style: 
+}
+h3 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h4 {
+	font-family: sans-serif;
+	color: #696969;
+}
+.flex-container {
+	display: flex;
+	justify-content: left;
+	align-content: left;
+	text-align: left;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+.recipe {
+	width: 50%;
+    padding: 20px;
+    text-align: left;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray; 
+    margin: 15px;
+    background-color: white;
+    float: left;
+}
+.nav-header {
+	background: #FDF5E6;
+    height: 100px;
+    display: flex;
+}
+.logo-img {
+	width: 100px;
+    margin-left: 25px;
+    padding: 10px;
+}
+.home {
+	color: #878787;
+    font-size: 24px;
+    color: #FF4500;
+    text-decoration: none;
+}
+.nav-other {
+    height: 90px;
+    display: flex;
+    float: right;
+    width: 50%;
+    text-align: right;
+    border-width: 1px;
+    border-color: black;
+    border-style: none;
+    margin: 15px;
+    background-color: #FDF5E6;
+}
+.border {
+    padding: 5px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-color: orange;
+}
+.head {
+    font-family: sans-serif;
+    color: black;
+    text-decoration: underline;
+}
+.back {
+    padding-left: 50%;
+    text-decoration: none;
+}
